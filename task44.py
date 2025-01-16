@@ -5,5 +5,5 @@ b = float(input('Введите число b: '))
 
 if x % y == a or x % y == b:
     print('Верно')
-else: 
+else:
     print('Неверно')
