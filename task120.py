@@ -32,7 +32,7 @@ def can_move(a, b, c, d, e, f, white_piece, black_piece):
     }
 
     return move_funcs[white_piece](a, b, e, f) 
-and not attack_funcs[black_piece](c, d, e, f)
+    and not attack_funcs[black_piece](c, d, e, f)
 
 
 a = int(input("Введите координату a: "))

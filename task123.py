@@ -1,4 +1,4 @@
-import math
+from import math
 
 
 def is_rectangular_triangle(a, b, c):
